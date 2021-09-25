@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+body{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(./images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
