@@ -7,12 +7,12 @@ const Cart = (props) => {
 
     const programmers = props.choose;
     const cost = programmers.reduce((prev, programmer) => prev + programmer.salary, 0)
-    console.log(programmers);
+
 
 
     return (
-        <div className="p-cart">
-            <h5>Programmer Added: {props.choose.length}</h5>
+        <div className="add-cart">
+            <h5>Person Added: {props.choose.length}</h5>
             <h6>Total Cost: ${cost}</h6>
 
             <div>

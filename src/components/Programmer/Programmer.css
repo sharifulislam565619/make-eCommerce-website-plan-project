@@ -1,4 +1,5 @@
-.product-cart{
+/* cart design for single person  */
+.person-cart{
     background-color: wheat;
     padding: 10px 0;
     height: 480px;
@@ -9,29 +10,21 @@
    
    
 }
-.product-cart:hover{
+.person-cart:hover{
     box-shadow:  6px 10px 10px #7d7514;
     border:5px solid lightblue;
 }
 
-.product-cart img{
+.person-cart img{
     width: 120px;
     height: 120px;
     border-radius: 100px;
 }
 
-.social-icon i{
-    font-size: 30px;
-    margin: 8px 15px;
-
-}
-.social-icon i:hover{
-    color: blue;
-    cursor: pointer;
-}
 
 
-.product-cart{
+
+.person-cart{
     background-color: rgb(253, 227, 227);
     text-align: center;
     padding: 10px 0;
@@ -44,4 +37,16 @@ table{
 .details{
     text-align: center;
     line-height: 15px;
+}
+
+/* font awesome icon */
+.social-icon i{
+    font-size: 30px;
+    margin: 8px 15px;
+    color: 	#1DA1F2;
+
+}
+.social-icon i:hover{
+    color: blue;
+    cursor: pointer;
 }

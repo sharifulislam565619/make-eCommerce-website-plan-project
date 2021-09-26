@@ -7,7 +7,7 @@ const Programmer = (props) => {
     const { name, country, occupation, age, salary, img } = props.programmer
     return (
         <div className="col-md-4 ">
-            <div className="cart mb-3 product-cart">
+            <div className="cart mb-3 person-cart">
                 <div>
                     <div style={{ textAlign: 'center' }}>
                         <img src={img} alt="..." />
