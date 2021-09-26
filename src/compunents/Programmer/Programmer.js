@@ -15,7 +15,7 @@ const Programmer = (props) => {
                     <div className="details">
                         <h4>Name: {name}</h4>
                         <p><small><b>Country</b>: {country}</small></p>
-                        <p><small><b>Occupatoin</b>: {occupation}</small></p>
+                        <p><small><b>Occupation</b>: {occupation}</small></p>
                         <p><small><b>Age</b>: {age}</small></p>
                         <p><small><b>Salary</b>: ${salary}</small></p>
                     </div>
