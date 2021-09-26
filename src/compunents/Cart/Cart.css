@@ -1,0 +1,8 @@
+.p-cart{
+    background-color: rgb(253, 227, 227);
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgb(14, 14, 14);
+}

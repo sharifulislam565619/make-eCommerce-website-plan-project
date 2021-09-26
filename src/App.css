@@ -11,6 +11,7 @@ body{
   background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(./images/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   
 }
 
